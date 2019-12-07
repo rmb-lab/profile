@@ -9,31 +9,37 @@ body {
 img{
   width: 100px;
 }
+
 h1 {
   color: #025a73;
   font-size: 32px;
   font-weight: 900;
 }
+
 h2 {
   display: block;
   font-weight: bold;
   color: #fe8e79;
   font-size: 25px;
 }
+
 p {
   display: block;
   margin-inline-start: 0px;
   margin-inline-end: 0px;
 }
+
 a {
     text-decoration: none;
     color: #5fb1bf;
     font-weight: 600;
     font-size: 25px;
 }
+
 a:hover {
   color: black;
 }
+
 ul {
   display: block;
   list-style-type: none;
@@ -43,10 +49,20 @@ li {
   color: #fe8e79;
 }
 
+link {
+  color: #575F7D;
+  font-family: 'Poppins', sans-serif;
+  font-size: 17px;
+  font-weight: lighter;
+}
+
 .container {
     width: 700px;
     margin: 40px auto;
 }
+
+/*SECTIONS*/
+
 .card-white {
     background-color: white;
     padding: 40px;
@@ -55,25 +71,22 @@ li {
     margin: 20px 0px;
     text-align: center;
 }
-.footer {
+
+/*END-SECTIONS*/
+
+/*FOOTER*/
+
+footer {
   font-size: small;
-  text-align: center;
+  color: #666;
   line-height: 2em;
+  color: #858585;
   text-align: center;
   margin: 2em 0;
 }
 
-footer {
-    font-size: small;
-    color: #666;
-    line-height: 2em;
-    color: #858585;
-    text-align: center;
-    margin: 2em 0;
-}
-
 footer .list-inline {
-    border: none;
+  border: none;
 }
 
 footer p, a {
@@ -87,19 +100,33 @@ footer .list-inline {
 }
 footer .list-inline, li{
   display: inline-block;
-/*  padding: 10px;*/
   padding: 0 0.2em;
 }
+
 footer .list-inline i {
     font-size: 20px;
 }
+
 footer .list-inline i:hover {
   color: #025a73;
 }
 
+.card-white a{
+  font-size: 17px;
+  color: #575F7D;
+}
+
+.card-white a:hover{
+  color: #025a73;
+}
+
+/*END FOOTER*/
+
 .img-circle {
   border-radius: 50%;
 }
+
+/*RESPONSIVE*/
 
 @media (max-width: 960px) {
   /* For a screen < 960px, this CSS will be read */
@@ -119,3 +146,4 @@ footer .list-inline i:hover {
     width: 300px;
   }
 }
+/*END-RESPONSIVE*/
