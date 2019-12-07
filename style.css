@@ -55,22 +55,50 @@ li {
     margin: 20px 0px;
     text-align: center;
 }
-.img-circle {
-  border-radius: 50%;
+.footer {
+  font-size: small;
+  text-align: center;
+  line-height: 2em;
+  text-align: center;
+  margin: 2em 0;
 }
-.list-inline {
+
+footer {
+    font-size: small;
+    color: #666;
+    line-height: 2em;
+    color: #858585;
+    text-align: center;
+    margin: 2em 0;
+}
+
+footer .list-inline {
+    border: none;
+}
+
+footer p, a {
+  margin: 0;
+  font-size: 13px;
+}
+
+footer .list-inline {
   display: inline-block;
   padding-left: 0px;
 }
-.list-inline, li{
+footer .list-inline, li{
   display: inline-block;
-  padding: 10px;
+/*  padding: 10px;*/
+  padding: 0 0.2em;
 }
-.list-inline i {
-    font-size: 45px;
+footer .list-inline i {
+    font-size: 20px;
 }
-.list-inline i:hover {
+footer .list-inline i:hover {
   color: #025a73;
+}
+
+.img-circle {
+  border-radius: 50%;
 }
 
 @media (max-width: 960px) {
