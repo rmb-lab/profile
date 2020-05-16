@@ -11,7 +11,7 @@ img{
 }
 
 h1 {
-  color: #ff604d;
+  color: #015b73;
   font-size: 32px;
   font-weight: 900;
 }
@@ -19,7 +19,7 @@ h1 {
 h2 {
   display: block;
   font-weight: bold;
-  color: #ff604d;
+  color: #015b73;
   font-size: 25px;
 }
 
@@ -45,7 +45,7 @@ a {
 }
 
 a:hover {
-  color: #ff604d;
+  color: #015b73;
 }
 
 ul {
@@ -131,7 +131,7 @@ footer .list-inline i {
 }
 
 footer .list-inline i:hover {
-  color: #ff604d;
+  color: #015b73;
 }
 
 .card-white a{
@@ -150,7 +150,6 @@ footer .list-inline i:hover {
 }
 
 /*RESPONSIVE*/
-
 @media (max-width: 960px) {
   /* For a screen < 960px, this CSS will be read */
   .container {
